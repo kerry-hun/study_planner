@@ -37,6 +37,6 @@ Manage whether the service starts automatically when the system boots:
 
 ---
 
-### Best Practices
+### Notes
 * **After Modification:** If you modify the service file (e.g., changes in `/etc/systemd/system/study.service`), always run `sudo systemctl daemon-reload` to inform systemd of the changes.
 * **Logs:** Using `journalctl -u study.service -f` is the most effective way to troubleshoot startup errors or runtime issues.
